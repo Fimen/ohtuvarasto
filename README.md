@@ -1,2 +1,2 @@
 # ohtuvarasto
-![](https://github.com/<OWNER>/<REPOSITORY>/workflows/<WORKFLOW_NAME>/badge.svg)
+![](https://github.com/Fimen/ohtuvarasto/workflows/CI/badge.svg)
