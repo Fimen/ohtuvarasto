@@ -5,8 +5,8 @@ from varasto import Varasto
 class TestVarasto(unittest.TestCase):
     def setUp(self):
         self.varasto = Varasto(10)
-        self.varastoneg = Varasto(-5, -3)
         self.varastoyli = Varasto(10, 15)
+        self.varastoneg = Varasto(-5, -3)
 
     def test_konstruktori_luo_tyhjan_varaston(self):
         # https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertAlmostEqual
