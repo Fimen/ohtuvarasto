@@ -53,6 +53,11 @@ def main():
     print(f"saatiin {saatiin}")
     print(f"Mehuvarasto: {mehua}")
 
+    rehua = Varasto(10)
+    rehua.lisaa_varastoon(8)
+    tulos = str(rehua)
+    print(tulos)
+
 
 if __name__ == "__main__":
     main()
