@@ -3,7 +3,7 @@ from varasto import Varasto
 
 
 class TestVarasto(unittest.TestCase):
-    def setUp(belf):
+    def setUp(self):
         self.varasto = Varasto(10)
         self.varastoneg = Varasto(-5, -3)
         self.varastoyli = Varasto(10, 15)
